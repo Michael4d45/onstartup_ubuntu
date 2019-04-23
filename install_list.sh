@@ -47,6 +47,6 @@ git clone https://github.com/LionSec/katoolin.git;
 sudo cp katoolin/katoolin.py /usr/bin/katoolin;
 sudo chmod +x /usr/bin/katoolin;
 #sudo katoolin
-##1;2;1 
+##1;1;2;back;2;0 
 
 sudo reboot;
