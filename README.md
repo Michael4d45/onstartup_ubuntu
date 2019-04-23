@@ -1,2 +1,2 @@
 # onstartup_ubuntu
-just some files to run to install packages after installing linux
+Just some files to run to install packages after installing ubuntu.
