@@ -3,22 +3,21 @@
 ssh-keygen -o -a 100 -t ed25519 
 
 #update
-sudo apt update -y &&
-  sudo apt upgrade -y &&
-  sudo apt autoremove -y;
+sudo chmod +x update.sh;
+sudo update.sh;
 
 #basic packages
 sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop -y;
-
-#vim
-sudo apt install vim -y && 
-  curl -sLf https://spacevim.org/install.sh | bash;
 
 #git
 sudo apt install git -y && 
   git config --global user.name "Michael J Harvey" && 
   git config --global user.email "michael4d45@gmail.com" &&
   git config --global core.editor vim;
+
+#vim
+sudo apt install vim -y && 
+  curl -sLf https://spacevim.org/install.sh | bash;
 
 #java
 sudo apt install default-jdk gradle -y;
@@ -48,5 +47,5 @@ sudo cp katoolin/katoolin.py /usr/bin/katoolin;
 sudo chmod +x /usr/bin/katoolin;
 #sudo katoolin
 ##1;1;2;back;2;0 
-
+sudo update.sh;
 sudo reboot;
