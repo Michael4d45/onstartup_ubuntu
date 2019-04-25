@@ -4,7 +4,7 @@
 
 #update
 sudo chmod +x update.sh;
-sudo update.sh;
+sudo ./update.sh;
 
 #basic packages
 sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail -y;
@@ -49,5 +49,5 @@ sudo cp katoolin/katoolin.py /usr/bin/katoolin;
 sudo chmod +x /usr/bin/katoolin;
 #sudo katoolin
 ##1;1;2;back;2;0 
-sudo update.sh;
+sudo ./update.sh;
 sudo reboot;
