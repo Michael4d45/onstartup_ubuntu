@@ -7,7 +7,7 @@ sudo chmod +x update.sh;
 sudo ./update.sh;
 
 #basic packages
-sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail -y;
+sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail gparted -y;
 
 #vim
 sudo apt install vim -y;
@@ -41,6 +41,8 @@ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb &&
 #Desktop environment kde
 #sudo apt install kde-plasma-desktop plasma-nm -y;
 
+#snap
+sudo apt install snapd -y;
 sudo snap install postman discord;
 
 #kali linux tools
