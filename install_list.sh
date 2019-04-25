@@ -1,13 +1,16 @@
 #! /bin/bash
 
-ssh-keygen -o -a 100 -t ed25519 
+#ssh-keygen -o -a 100 -t ed25519 
 
 #update
 sudo chmod +x update.sh;
 sudo update.sh;
 
 #basic packages
-sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop -y;
+sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail -y;
+
+#vim
+sudo apt install vim -y;
 
 #git
 sudo apt install git -y && 
@@ -15,9 +18,8 @@ sudo apt install git -y &&
   git config --global user.email "michael4d45@gmail.com" &&
   git config --global core.editor vim;
 
-#vim
-sudo apt install vim -y && 
-  curl -sLf https://spacevim.org/install.sh | bash;
+#Spacevim
+curl -sLf https://spacevim.org/install.sh | bash;
 
 #java
 sudo apt install default-jdk gradle -y;
@@ -37,9 +39,9 @@ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb &&
 #sudo -u postgres psql;ALTER USER postgres PASSWORD 'postgres'
 
 #Desktop environment kde
-sudo apt install kde-plasma-desktop plasma-nm -y;
+#sudo apt install kde-plasma-desktop plasma-nm -y;
 
-sudo snap install postman;
+sudo snap install postman discord;
 
 #kali linux tools
 git clone https://github.com/LionSec/katoolin.git;
