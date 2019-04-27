@@ -52,4 +52,7 @@ sudo chmod +x /usr/bin/katoolin;
 #sudo katoolin
 ##1;1;2;back;2;0 
 sudo ./update.sh;
+
+sudo dpkg-reconfigure console-setup
+
 sudo reboot;
