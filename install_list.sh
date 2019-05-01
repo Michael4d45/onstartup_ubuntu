@@ -36,7 +36,7 @@ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb &&
   sudo dpkg -i erlang-solutions_1.0_all.deb &&
   sudo apt update && 
   sudo apt install esl-erlang elixir -y && 
-  mix archive.install hex phx_new 1.4.3 &&
+  mix archive.install hex phx_new 1.4.4 &&
   mix local.hex &&
   sudo apt install postgresql postgresql-contrib npm inotify-tools -y;
 #passwrd postgres -p postgres
