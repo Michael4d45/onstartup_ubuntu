@@ -1,13 +1,17 @@
 #! /bin/bash
 
-#ssh-keygen -o -a 100 -t ed25519 
 
 #update
 sudo chmod +x update.sh;
 sudo ./update.sh;
 
 #basic packages
-sudo apt install sl make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail gparted -y;
+sudo apt install sl gcc apt-utils dialog make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail gparted -y;
+
+#ssh 
+#sudo apt install ssh openssh-server -y &&
+  #sudo service ssh start
+#ssh-keygen -o -a 100 -t ed25519 
 
 #vim
 sudo apt install vim -y;
