@@ -6,7 +6,7 @@ sudo chmod +x update.sh;
 sudo ./update.sh;
 
 #basic packages
-sudo apt install sl gcc apt-utils dialog make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail gparted -y;
+sudo apt install sl gcc apt-utils dialog make rsync screen httpie curl lolcat cowsay vlc net-tools htop firejail gparted xclip -y;
 
 #ssh 
 #sudo apt install ssh openssh-server -y &&
