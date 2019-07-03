@@ -119,5 +119,5 @@ fi
 
 alias titan='ssh root@134.209.55.215'
 alias pi='ssh michael@45.56.63.24 -p 7676'
-alias "c=xclip"
+alias "c=xclip -selection clipboard"
 alias "v=xclip -o"
