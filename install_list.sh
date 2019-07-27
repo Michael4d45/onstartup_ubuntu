@@ -31,6 +31,7 @@ sudo apt install \
   php-dom \
   php-mbstring \
   sqlite \
+  npm \
   -y;
 
 #laravel
