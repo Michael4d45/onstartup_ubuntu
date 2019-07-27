@@ -26,7 +26,16 @@ sudo apt install \
   xclip \
   p7zip-full \
   gltron \
+  composer \
+  php-intl \
+  php-dom \
+  php-mbstring \
+  sqlite \
   -y;
+
+#laravel
+composer global require laravel/installer
+
 
 #ssh 
 #sudo apt install ssh openssh-server -y &&
