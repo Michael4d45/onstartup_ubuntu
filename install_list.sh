@@ -27,16 +27,20 @@ sudo apt install \
   p7zip-full \
   gltron \
   composer \
+  sqlite \
+  nodejs \
+  -y;
+
+
+sudo apt install \
   php-intl \
   php-dom \
   php-mbstring \
   php-curl \
   php-sqlite \
   php-mysql \
-  sqlite \
-  nodejs \
-  -y;
-
+  -y
+  
 #laravel
 composer global require laravel/installer
 
