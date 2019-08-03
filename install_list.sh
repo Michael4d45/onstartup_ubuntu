@@ -37,7 +37,7 @@ sudo apt install \
   php-dom \
   php-mbstring \
   php-curl \
-  php-sqlite \
+  php-sqlite3 \
   php-mysql \
   -y
   
