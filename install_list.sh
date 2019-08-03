@@ -30,6 +30,7 @@ sudo apt install \
   php-intl \
   php-dom \
   php-mbstring \
+  php-curl \
   sqlite \
   nodejs \
   -y;
