@@ -29,6 +29,7 @@ sudo apt install \
   composer \
   sqlite \
   nodejs \
+  npm \
   -y;
 
 
