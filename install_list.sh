@@ -30,6 +30,7 @@ sudo apt install \
   sqlite \
   nodejs \
   npm \
+  vim-gtk \
   -y;
 
 

@@ -119,5 +119,15 @@ fi
 
 alias titan='ssh root@134.209.55.215'
 alias pi='ssh michael@45.56.63.24 -p 7676'
+alias michael='ssh michae39@michael4d45.com'
+
 alias "c=xclip -selection clipboard"
 alias "v=xclip -o"
+
+#PATH=$PATH:~/usr/local/bin/sdl2-config
+PATH=$PATH:/home/michael/.config/composer/vendor/bin
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
