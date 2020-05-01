@@ -41,6 +41,7 @@ sudo apt install \
   php-curl \
   php-sqlite3 \
   php-mysql \
+  php-zip \
   -y
   
 #laravel
